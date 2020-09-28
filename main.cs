@@ -38,10 +38,5 @@ class MainClass {
         Console.WriteLine("Macro Invalido!");
       break;
     }
-    
-    // cara, vc me deu uma puta aula aqui agr !! vlwwww
-    // algumas coisas nao entendi mto bem, como por exemplo "case", "Switch" e tals, mas de resto pqp, mto bom!
-    // Deu pra entender ai ? Entra discord ai ok
-    // o Switch o professor tinha explicado po, mas tu pode usar o if else tbm, coloquei Switch, so pra sair do basico mesmo, ja que o C# tem o Switch 
   }
 }
