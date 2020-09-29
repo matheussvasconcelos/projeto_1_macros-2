@@ -26,16 +26,19 @@ class MainClass {
     switch(macro){
       case "proteina":
         valor = Macronutrientes.Proteina(Matheus.peso);
-        Console.WriteLine("Querido {0}, você deve ingerir no mínimo {1} gramas de PROTEÍNA por dia", Matheus.nome, valor);
+        Console.WriteLine("Querido(a) {0}, você deve ingerir no mínimo {1} gramas de PROTEÍNA por dia", Matheus.nome, valor);
+        Console.ReadLine();
       break;
       
       case "agua":
         valor = Macronutrientes.Agua(Matheus.peso);
-        Console.WriteLine("Querido {0}, você deve ingerir no mínimo {1} Litros de ÁGUA por dia", Matheus.nome, valor);
+        Console.WriteLine("Querido(a) {0}, você deve ingerir no mínimo {1} Litros de ÁGUA por dia", Matheus.nome, valor);
+        Console.ReadLine();
       break;
 
       default:
         Console.WriteLine("Macro Invalido!");
+        Console.ReadLine();
       break;
     }
   }
